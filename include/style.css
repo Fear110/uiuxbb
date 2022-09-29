@@ -1,0 +1,677 @@
+@font-face {
+  font-family: "Monument Extended";
+  src: url(../fonts/PPMonumentExtended-Regular.otf);
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+  font-family: "Gilroy SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 340px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* removing default margins and paddings */
+
+/* fixed menu */
+
+.fixed-menu {
+  position: fixed;
+  bottom: 0.00000001rem;
+  display: flex;
+  left: 50%;
+  width: 90rem;
+  padding: 3rem 4rem;
+  transform: translate(-50%, -50%);
+  background: #1e1e21;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+  color: #ffffff;
+  border-radius: 1.6rem;
+  z-index: 100;
+}
+
+.fixed-menu p {
+  padding: 0 3rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.topLogo {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* top bigbracket logo */
+.main-Page {
+  background-image: url("../images/first background.jpg");
+  text-align: center;
+  padding-top: 3rem;
+}
+/* adding background images */
+.main-Page h1 {
+  font-size: 6.4rem;
+  margin-top: 6.6rem;
+  font-family: "Monument Extended";
+}
+/* first header in the document */
+
+.view-course {
+  height: 6.7rem;
+  width: 19.8rem;
+  background: #1e1e21;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+}
+/* viwe course button */
+.online-exam {
+  height: 48.5rem;
+  width: 48.5;
+}
+
+.second-Page img {
+  height: 48.1rem;
+  width: 39.9rem;
+}
+
+.head-discription-section {
+  max-width: 56.5rem;
+  max-height: 13.5rem;
+  margin: 0 auto;
+  font-size: 2.4rem;
+  line-height: 3.36rem;
+  font-family: Gilroy;
+  text-align: center;
+}
+/* discription written in first page */
+
+.book-seat {
+  width: 23.4rem;
+  height: 6.7rem;
+  background: #ffffff;
+  border: 2px solid #1e1e21;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+  color: black;
+  margin: 2.4rem;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+}
+/* book your seat buttom */
+
+.discount-section {
+  font-family: Gilroy;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #4b4b4b;
+}
+/* discount paragraph */
+
+.second-Page {
+  background-image: url("../images/second background.jpg");
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.second-Page .course-specs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .second-Page .course-specs .specs-left {
+    margin-left: 3rem;
+  }
+}
+
+.second-Page .course-specs .specs-left p {
+  font-family: "Monument Extended";
+  padding: 3.5rem 7rem 3.5rem 0;
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.second-Page .course-specs .specs-right p {
+  font-family: "Monument Extended";
+  padding: 3.5rem 0rem 3.5rem 7rem;
+  font-weight: 600;
+  font-size: 2.6rem;
+  text-align: right;
+}
+
+/* second page backdround image */
+.second-Page h1 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: #1e1e21;
+  margin: 0 auto;
+  max-width: 77rem;
+  padding-top: 14rem;
+}
+/* second page Heading */
+
+.second-Page p {
+  max-width: 70rem;
+  max-height: 13.5rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 2.55rem;
+  font-family: Gilroy;
+  text-align: center;
+}
+/* second page paragraph */
+
+.third-Page {
+  max-width: 81rem;
+  max-height: 18rem;
+  font-family: Gilroy;
+  font-size: 3.2rem;
+  line-height: 4.5rem;
+
+  margin: 0 auto;
+  color: #1e1e21;
+  text-align: center;
+  margin-top: 11.5rem;
+}
+/* third page body */
+
+.third-Page .quote {
+  color: #727272;
+  font-size: 2.2rem;
+  line-height: 4.5rem;
+}
+/* Quote person name */
+
+.fourth-Page {
+  background-image: url("../images/third background.png");
+  background-size: cover;
+  text-align: center;
+  margin-top: 20rem;
+}
+
+/* fouth page with background image */
+.fourth-Page h1 {
+  font-family: "Monument Extended";
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 400;
+  padding-top: 11.5rem;
+}
+/* fouth page heading */
+
+.fourth-Page p {
+  max-width: 58.4rem;
+  max-height: 7.6rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  color: #1e1e21;
+  line-height: 2.55rem;
+  font-family: Gilroy;
+  text-align: center;
+}
+/* fourth page paragraph */
+
+.main-content-course {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 14.5rem;
+  margin-top: 10.5rem;
+}
+/* whole div for left and right content */
+.left-content-course {
+  align-items: flex-start;
+  padding: 1.6rem;
+  margin-right: 9.4rem;
+  max-width: 61.4rem;
+  text-align: left;
+  max-height: fit-content;
+}
+/* fourth page left content */
+
+.left-content-course p {
+  font-family: "Gilroy-Regular";
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #1e1e21;
+  text-align: left;
+  font-family: Gilroy;
+  max-height: fit-content;
+}
+.left-content-course h4 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-family: Gilroy SemiBold;
+}
+
+.righ-content-course {
+  align-items: flex-start;
+  padding: 2rem 2rem 3.2rem;
+  gap: 2.4rem;
+  max-width: 45.8rem;
+  max-height: 66.5rem;
+  text-align: left;
+
+  background: #ffffff;
+  border: 0.4rem solid #1e1e21;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+  margin-right: 1rem;
+}
+/* fourth page right content */
+
+.righ-content-course h4 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-family: Gilroy SemiBold;
+  color: #1e1e21;
+}
+.righ-content-course p {
+  font-family: "Gilroy-Regular";
+  font-size: 1.8rem;
+  line-height: 2.34rem;
+  color: #1e1e21;
+  text-align: left;
+  font-family: Gilroy;
+}
+
+.righ-content-course i {
+  color: #ffd152;
+  background: black;
+  border: 1px solid #000000;
+  box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.9);
+  border-radius: 1.4rem;
+  margin-right: 0.3rem;
+}
+.righ-content-course button {
+  gap: 1rem;
+  background: #1e1e21;
+  border-radius: 0.8rem;
+  width: 19.5rem;
+  height: 6.7rem;
+
+  font-family: "Monument Extended";
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button-withdiscount {
+  display: flex;
+  align-items: center;
+}
+
+.button-withdiscount .course-price {
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-left: 5rem;
+}
+
+.button-withdiscount .course-price .course-week {
+  font-weight: lighter;
+  font-size: 1.4rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+/* fifth page */
+.fifth-Page {
+  padding-top: 12.5rem;
+  margin-bottom: 12.5rem;
+}
+
+.fifth-Page h1 {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-family: "Monument Extended";
+  text-align: center;
+  font-style: normal;
+}
+.bodytext-fifthpage {
+  font-family: Gilroy-Medium;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #1e1e21;
+  max-width: 58.4rem;
+  margin: 0 auto;
+}
+
+.main-ellipse {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-top: 4.3rem;
+}
+.main-ellipse img {
+  width: 11.2rem;
+  height: 11.2rem;
+}
+
+.row-ellipse {
+  display: flex;
+  flex-direction: column;
+  max-width: 45.5rem;
+  border-radius: 0.8rem;
+}
+
+.row-ellipse .sign-up-section {
+  margin: 2.3rem 0 3.3rem 4rem;
+  height: 6.7rem;
+  width: 26.8rem;
+  background: #1e1e21;
+  font-size: 1.6rem;
+  font-family: Monument Extended;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  box-shadow: 0.6rem 0.6rem 0px rgb(0 0 0 / 25%);
+}
+
+.row-ellipse .info-section {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 2.7rem auto;
+}
+
+.row-ellipse .info-section .user-title {
+  font-family: "Monument Extended";
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.row-ellipse .info-section .user-position {
+  font-family: "Gilroy-Medium";
+  font-size: 1.6rem;
+  width: 20.6rem;
+}
+
+.row-ellipse .info-section .user-image {
+  width: 15.2rem;
+  height: 12.3rem;
+  border-radius: 50%;
+  border: 0.4rem solid #1e1e21;
+  overflow: hidden;
+  margin-right: 1.8rem;
+}
+
+.row-ellipse .info-section .user-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.row-ellipse .desc-section {
+  width: 100%;
+  padding-left: 4rem;
+}
+
+.row1-ellipse {
+  background-image: url(../images/first\ background.jpg);
+}
+
+.row2-ellipse {
+  background-image: url(../images/third\ background.png);
+}
+.row3-ellipse {
+  background-image: url(../images/second\ background.jpg);
+}
+.row4-ellipse {
+  background-image: url(../images/fourth-background.png);
+  background-size: cover;
+}
+
+.main-ellipse P {
+  max-width: 40.5rem;
+  font-family: "Gilroy-Medium";
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  /* or 140% */
+  padding-left: 2.6rem;
+  padding-right: 1.9rem;
+
+  color: #1e1e21;
+}
+
+.sixth-Page {
+  background-image: url("../images/first background.jpg");
+  padding-top: 15.3rem;
+  background-size: cover;
+}
+.sixth-Page h1 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  /* identical to box height */
+  color: #1e1e21;
+  text-align: center;
+}
+
+.sixth-page-parent {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 14.5rem;
+  margin-top: 10.5rem;
+}
+
+.left-content-sixthpage {
+  max-width: 65.2rem;
+  margin-left: 1rem;
+}
+.course-overview-1st {
+  background: #1e1e21;
+  border: 0.4rem solid #1e1e21;
+  box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  padding: 2rem;
+  gap: 1.6rem;
+}
+.course-overview-1st p {
+  color: #ffffff;
+  font-family: "Gilroy-Medium";
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+.course-overview-1st h4 {
+  font-family: Gilroy SemiBold;
+  color: #ffffff;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  position: relative;
+}
+
+.course-overview-1st h4::after {
+  content: "-";
+  position: absolute;
+  right: 0;
+}
+
+.course-overview-other {
+  background: #ffffff;
+  border: 0.4rem solid #1e1e21;
+  border-radius: 8px;
+  margin-top: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  position: relative;
+}
+
+.course-overview-other p {
+  font-family: Gilroy SemiBold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  /* identical to box height, or 140% */
+
+  color: #1e1e21;
+}
+
+.course-overview-other p::after {
+  content: "+";
+  position: absolute;
+  right: 3%;
+}
+
+.righ-content-sixthpage img {
+  width: 40rem;
+  height: 40rem;
+  margin-left: 5.6rem;
+}
+
+.seventh-Page {
+  background-image: url(../images/third\ background.png);
+  background-size: cover;
+  padding-top: 12.4rem;
+  padding-bottom: 10rem;
+}
+
+.seventh-Page h1 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+}
+
+.seventh-Page .bodytext-seventh {
+  font-family: "Gilroy-Medium";
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5.8rem;
+}
+
+.seventh-Page h4 {
+  font-family: Gilroy SemiBold;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  /* identical to box height, or 140% */
+  color: #1e1e21;
+  margin-top: 2.4rem;
+}
+
+.name,
+.number,
+.email {
+  background: #ffffff;
+  border-radius: 0.8rem;
+  height: 5.2rem;
+  width: 48.6rem;
+}
+
+.seventh-Page form {
+  background-image: url(../images/form\ background.png);
+  width: 59.2rem;
+  border-radius: 0.8rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1.6rem;
+  padding-bottom: 6.8rem;
+}
+
+.seventh-Page form div {
+  width: 48rem;
+  margin: 0 auto;
+}
+
+.seventh-Page form div h4 {
+  padding-bottom: 0.5rem;
+  text-align: left;
+}
+
+.signup-checkbox {
+  font-family: Gilroy;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #1e1e21;
+  max-width: 44.6rem;
+  margin-left: 5.1rem;
+  margin-top: 2.5rem;
+}
+.seventh-Page button {
+  padding: 2.4rem;
+  gap: 1rem;
+  width: 48.6rem;
+  height: 6.7rem;
+  background: #1e1e21;
+  border-radius: 0.8rem;
+
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  margin-top: 6rem;
+}
