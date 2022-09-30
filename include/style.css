@@ -206,6 +206,65 @@ html {
   } 
 }
 
+
+@media (max-width: 420px) {
+  html {
+    font-size: 25%;
+  }
+  .main-content-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px !important;
+  }
+
+  .main-content-course h4 {
+    text-align: left;
+  }
+
+  .sixth-page-parent {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 1rem !important;
+  }
+  .left-content-sixthpage {
+    align-self: center;
+  }
+  .righ-content-course {
+    height: fit-content;
+  }
+  .button-withdiscount .course-price {
+    margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
+  /* .fixed-menu {
+    width: 79rem !important;
+    padding: 2rem 3rem !important;
+  }
+  .fixed-menu a{
+    padding: 2rem !important;
+  } */
+  .fixed-menu {
+    width: 89%rem !important;
+    padding: 2rem 3rem !important;
+  }
+  .fixed-menu a{
+    padding: 4.5% !important;
+  }
+}
+
+
+
 @media (max-width: 400px) {
   html {
     font-size: 35%;
