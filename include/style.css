@@ -29,7 +29,7 @@ html {
   }
 
   .righ-content-course {
-    height: 68rem;
+    height: 70rem;
   }
 }
 
@@ -48,7 +48,7 @@ html {
     text-align: left;
   }
   .sixth-page-parent {
-  margin-top: 1rem !important;
+    margin-top: 1rem !important;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
@@ -72,15 +72,20 @@ html {
   }
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
-   
   }
- .row-ellipse{
-  max-width: 45.5rem !important;
-  margin: 0 auto !important;
- }
- .main-ellipse P{
-  max-width: 40.5rem !important;
- }
+  .row-ellipse {
+    max-width: 45.5rem !important;
+    margin: 0 auto !important;
+  }
+  .main-ellipse P {
+    max-width: 40.5rem !important;
+  }
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
 }
 
 @media (max-width: 550px) {
@@ -123,6 +128,12 @@ html {
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
   }
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
 }
 @media (max-width: 450px) {
   html {
@@ -163,9 +174,12 @@ html {
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
   }
-}
-@media (max-width: 330px) {
-  
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
 }
 
 @media (max-width: 380px) {
@@ -241,15 +255,13 @@ html {
   }
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
-   
   }
- .row-ellipse{
-  max-width: 47.5rem !important;
- }
- .main-ellipse P{
-  max-width: 42.5rem !important;
- }
-
+  .row-ellipse {
+    max-width: 47.5rem !important;
+  }
+  .main-ellipse P {
+    max-width: 42.5rem !important;
+  }
 }
 
 *,
