@@ -90,8 +90,8 @@ html {
     width: 98% !important;
     padding: 2rem 3rem !important;
   }
-  
-  .fixed-menu a{
+
+  .fixed-menu a {
     padding: 3% !important;
   }
 }
@@ -146,8 +146,8 @@ html {
     width: 98% !important;
     padding: 2rem 3rem !important;
   }
-  
-  .fixed-menu a{
+
+  .fixed-menu a {
     padding: 1.5rem !important;
   }
 }
@@ -200,12 +200,11 @@ html {
     width: 98% !important;
     padding: 2rem 3rem !important;
   }
-  
-  .fixed-menu a{
-    padding: 2.3% !important;
-  } 
-}
 
+  .fixed-menu a {
+    padding: 2.3% !important;
+  }
+}
 
 @media (max-width: 420px) {
   html {
@@ -240,9 +239,10 @@ html {
   }
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
+    width: 80% !important;
   }
   .row-ellipse {
-    max-width: 47.5rem !important;
+    max-width: 52.5rem !important;
   }
   .main-ellipse P {
     max-width: 42.5rem !important;
@@ -258,12 +258,10 @@ html {
     width: 89%rem !important;
     padding: 2rem 3rem !important;
   }
-  .fixed-menu a{
+  .fixed-menu a {
     padding: 2.1% !important;
   }
 }
-
-
 
 @media (max-width: 400px) {
   html {
@@ -314,11 +312,10 @@ html {
     width: 98% !important;
     padding: 2rem 3rem !important;
   }
-  
-  .fixed-menu a{
+
+  .fixed-menu a {
     padding: 1.7% !important;
   }
- 
 }
 
 @media (max-width: 380px) {
@@ -360,16 +357,14 @@ html {
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
   }
-   .fixed-menu {
+  .fixed-menu {
     width: 98% !important;
     padding: 2rem 3rem !important;
   }
-  
-  .fixed-menu a{
+
+  .fixed-menu a {
     padding: 2.3% !important;
   }
-
-  
 }
 @media (max-width: 330px) {
   html {
@@ -404,9 +399,10 @@ html {
   }
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
+    width: 80% !important;
   }
   .row-ellipse {
-    max-width: 47.5rem !important;
+    max-width: 52.5rem !important;
   }
   .main-ellipse P {
     max-width: 42.5rem !important;
@@ -422,7 +418,7 @@ html {
     width: 89%rem !important;
     padding: 2rem 3rem !important;
   }
-  .fixed-menu a{
+  .fixed-menu a {
     padding: 2.8% !important;
   }
 }
@@ -493,6 +489,10 @@ html {
   border-radius: 0.8rem;
   box-shadow: 0.6rem 0.6rem 0px rgba(0, 0, 0, 0.25);
 }
+.view-course a {
+  text-decoration: none;
+  color: white;
+}
 /* viwe course button */
 .online-exam {
   height: 48.5rem;
@@ -528,7 +528,10 @@ html {
   font-family: Monument Extended;
 }
 /* book your seat buttom */
-
+.book-seat a {
+  text-decoration: none;
+  color: #000000;
+}
 .discount-section {
   font-family: Gilroy;
   font-size: 1.6rem;
@@ -745,6 +748,10 @@ html {
   font-weight: bold;
   opacity: 0.5;
 }
+.signup-btn a {
+  text-decoration: none;
+  color: white;
+}
 
 /* fifth page */
 .fifth-Page {
@@ -802,6 +809,10 @@ html {
   color: #ffffff;
   border-radius: 0.8rem;
   box-shadow: 0.6rem 0.6rem 0px rgb(0 0 0 / 25%);
+}
+.sign-up-section a {
+  text-decoration: none;
+  color: white;
 }
 
 .row-ellipse .info-section {
