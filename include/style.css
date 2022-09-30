@@ -158,11 +158,14 @@ html {
     margin: 0 !important;
   }
   .button-withdiscount .course-price {
-    margin-left: 15rem !important;
+    margin-left: 14rem !important;
   }
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
   }
+}
+@media (max-width: 330px) {
+  
 }
 
 @media (max-width: 380px) {
