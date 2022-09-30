@@ -42,11 +42,13 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0px !important;
   }
   .main-content-course h4 {
-    text-align: center;
+    text-align: left;
   }
   .sixth-page-parent {
+  margin-top: 1rem !important;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
@@ -60,7 +62,7 @@ html {
     width: 74% !important;
   }
   .left-content-course p {
-    text-align: center !important;
+    text-align: left !important;
   }
   .left-content-course {
     margin: 0 !important;
@@ -68,6 +70,17 @@ html {
   .button-withdiscount .course-price {
     margin-left: 15rem !important;
   }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+   
+  }
+ .row-ellipse{
+  max-width: 45.5rem !important;
+  margin: 0 auto !important;
+ }
+ .main-ellipse P{
+  max-width: 40.5rem !important;
+ }
 }
 
 @media (max-width: 550px) {
@@ -79,11 +92,13 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0px !important;
   }
   .main-content-course h4 {
-    text-align: center;
+    text-align: left;
   }
   .sixth-page-parent {
+    margin-top: 1rem !important;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
@@ -97,13 +112,16 @@ html {
     width: 74% !important;
   }
   .left-content-course p {
-    text-align: center !important;
+    text-align: left !important;
   }
   .left-content-course {
     margin: 0 !important;
   }
   .button-withdiscount .course-price {
     margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
 @media (max-width: 450px) {
@@ -115,11 +133,13 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0px !important;
   }
   .main-content-course h4 {
-    text-align: center;
+    text-align: left;
   }
   .sixth-page-parent {
+    margin-top: 1rem !important;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
@@ -132,13 +152,16 @@ html {
     margin: 0px !important;
   }
   .left-content-course p {
-    text-align: center !important;
+    text-align: left !important;
   }
   .left-content-course {
     margin: 0 !important;
   }
   .button-withdiscount .course-price {
     margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
 
@@ -151,11 +174,13 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0px !important;
   }
   .main-content-course h4 {
-    text-align: center;
+    text-align: left;
   }
   .sixth-page-parent {
+    margin-top: 1rem !important;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
@@ -168,13 +193,16 @@ html {
     margin: 0px !important;
   }
   .left-content-course p {
-    text-align: center !important;
+    text-align: left !important;
   }
   .left-content-course {
     margin: 0 !important;
   }
   .button-withdiscount .course-price {
     margin-left: 15rem !important;
+  }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
 @media (max-width: 330px) {
@@ -186,16 +214,18 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0px !important;
   }
 
   .main-content-course h4 {
-    text-align: center;
+    text-align: left;
   }
 
   .sixth-page-parent {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
+    margin-top: 1rem !important;
   }
   .left-content-sixthpage {
     align-self: center;
@@ -206,6 +236,17 @@ html {
   .button-withdiscount .course-price {
     margin-left: 15rem !important;
   }
+  .main-ellipse {
+    grid-template-columns: repeat(1, 1fr) !important;
+   
+  }
+ .row-ellipse{
+  max-width: 47.5rem !important;
+ }
+ .main-ellipse P{
+  max-width: 42.5rem !important;
+ }
+
 }
 
 *,
@@ -258,7 +299,7 @@ html {
 }
 /* adding background images */
 .main-Page h1 {
-  font-size: 6.4rem;
+  font-size: 5.4rem;
   margin-top: 6.6rem;
   font-family: "Monument Extended";
 }
@@ -570,6 +611,7 @@ html {
   flex-direction: column;
   max-width: 45.5rem;
   border-radius: 0.8rem;
+  border: 0.6rem #4b4b4b solid;
 }
 
 .row-ellipse .sign-up-section {
