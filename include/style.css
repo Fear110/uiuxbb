@@ -209,7 +209,7 @@ html {
 
 @media (max-width: 420px) {
   html {
-    font-size: 25%;
+    font-size: 35%;
   }
   .main-content-course {
     display: flex;
@@ -259,7 +259,7 @@ html {
     padding: 2rem 3rem !important;
   }
   .fixed-menu a{
-    padding: 4.5% !important;
+    padding: 2.1% !important;
   }
 }
 
