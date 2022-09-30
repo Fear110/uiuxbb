@@ -169,7 +169,7 @@ html {
     margin: 0 !important;
   }
   .button-withdiscount .course-price {
-    margin-left: 14rem !important;
+    margin-left: 12rem !important;
   }
   .main-ellipse {
     grid-template-columns: repeat(1, 1fr) !important;
